@@ -1,14 +1,17 @@
 nav{
     background-color: #f6f8f9;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     ul{
-        display: inline-block;  
+        display: flex;  
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
         margin: 0;
         padding: 0;
-        overflow: hidden;
-        margin-left: auto;
         li{
-            display: inline;
+            display: inline-block;
             font-size: 1em;
             font-weight: bold;
             a{
@@ -27,6 +30,7 @@ nav{
         }
     }
     .logo{
-        display: inline-block;
+        width: 50px;
+        height: 50px;
     }
 }
