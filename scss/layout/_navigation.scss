@@ -1,0 +1,32 @@
+nav{
+    background-color: #f6f8f9;
+    display: flex;
+    ul{
+        display: inline-block;  
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin-left: auto;
+        li{
+            display: inline;
+            font-size: 1em;
+            font-weight: bold;
+            a{
+                color: #a1a3a4;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .active{
+                color: #5a5c5e;
+            }
+            :hover{
+                background-color: #FA6980;
+                color:white;
+                text-decoration: none;
+            }
+        }
+    }
+    .logo{
+        display: inline-block;
+    }
+}
